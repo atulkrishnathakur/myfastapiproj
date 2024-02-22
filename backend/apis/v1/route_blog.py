@@ -14,7 +14,7 @@ from schemas.blog import CreateBlog
 from schemas.blog import ShowBlog
 from schemas.blog import UpdateBlog
 from sqlalchemy.orm import Session
-from db.models.users import User
+from db.models.user import User
 from apis.v1.route_login import get_current_user
 
 router = APIRouter()
